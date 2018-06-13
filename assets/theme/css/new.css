@@ -1,0 +1,14 @@
+.cid-qUdh8t7m7q button.navbar-toggler .hamburger span {
+    background-color:white !important;
+  }
+.mbr-arrow-up {
+    right: 25px !important;
+}
+@media (max-width: 500px) {
+    .mbr-arrow-up {
+      left: 95%;
+    }
+}
+.cid-qUdrafNgXF .card-front img {
+    max-width: 100% !important;
+}
