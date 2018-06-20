@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 
   // Initialize Firebase
-  
+  $('#modalIntro').modal('show')
   var config = {
     apiKey: "AIzaSyCSoKIgYnU--pJ4yuuIZTRXmr6rAtP12Hs",
     authDomain: "nauru-3732.firebaseapp.com",
