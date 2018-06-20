@@ -48,8 +48,8 @@ jQuery(document).ready(function($) {
 		contatotelefone: "Tel:  (00) 0 0000 0001 ",
 		contatowhatsapp: "WhatsApp: (00) 0 0000 0002",
 		linkstitulo: "Links",
-		linksinstagram: "https://instagram.com",
-		linksfacebook: "https://facebook.com",
+		linksinstagram: "https://www.instagram.com/",
+		linksfacebook: "https://www.facebook.com/",
 		sobrefoto:"assets/images/mbr-1332x888.jpg",
 		logoheader: "assets/images/nn1-1-150x60.png",
 		galeriaprimeiraimg: "assets/images/mbr-978x652.jpg",
@@ -89,6 +89,8 @@ jQuery(document).ready(function($) {
 		$("[data-changetexto='contatotelefone']").text(dados.contatotelefone)
 		$("[data-changetexto='contatowhatsapp']").text(dados.contatowhatsapp)
 		$("[data-changetexto='linkstitulo']").text(dados.linkstitulo)
+		$("[data-changetexto='linksinstagram']").attr('href',dados.linksinstagram)
+		$("[data-changetexto='linksfacebook']").attr('href',dados.linksfacebook)
 	}
 	$('#modaltexto').on('hidden.bs.modal', function (e) {
 		LimpaModalTexto()
