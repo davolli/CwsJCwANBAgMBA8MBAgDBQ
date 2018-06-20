@@ -14,10 +14,6 @@ jQuery(document).ready(function($) {
   
 	let dados = {
 		corprincipal: 'skyblue',
-		navprimeiro: 'Home',
-		navsegundo: 'Sobre nós',
-		navterceiro: 'Galeria',
-		navquarto: 'Contato',
 		herotitulo : 'Destaque-se na web',
 		herosubtitulo: 'No mundo atual, o comprometimento entre as equipes aponta para a melhoria das formas de ação.',
 		herobotao: "Conheça mais",
@@ -65,10 +61,6 @@ jQuery(document).ready(function($) {
 
 	/** TEXTO */
 	function AtualizarTextos(){
-		$("[data-changetexto='navprimeiro']").text(dados.navprimeiro)
-		$("[data-changetexto='navsegundo']").text(dados.navsegundo)
-		$("[data-changetexto='navterceiro']").text(dados.navterceiro)
-		$("[data-changetexto='navquarto']").text(dados.navquarto)
 		$("[data-changetexto='herotitulo']").text(dados.herotitulo)
 		$("[data-changetexto='herosubtitulo']").text(dados.herosubtitulo)
 		$("[data-changetexto='herobotao']").text(dados.herobotao)
