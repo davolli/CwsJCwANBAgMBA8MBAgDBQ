@@ -349,6 +349,7 @@ jQuery(document).ready(function($) {
 		$("[data-corprincipal='"+novacor+"']").addClass('coractive')
 		AtualizarBolaCor()
 		AtualizarCorSite()
+		$('.floating-menu-toggle-wrap').click ();
 	}
 	$("[data-menu='detalhes']").click(function () {
 		AtualizarBolaCor()
